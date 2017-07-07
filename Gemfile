@@ -3,6 +3,8 @@ source 'https://rubygems.org'
 
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
 gem 'rails', '4.2.6'
+gem 'devise'
+gem 'milia', '1.2.0'
 # Use sqlite3 as the database for Active Record
 
 # Use SCSS for stylesheets
@@ -53,3 +55,6 @@ group :production do
   gem 'rails_12factor'
 
 end
+
+gem 'recaptcha', require: 'recaptcha/rails'
+gem 'activerecord-session_store', github: 'rails/activerecord-session_store'
